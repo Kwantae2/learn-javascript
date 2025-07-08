@@ -43,3 +43,10 @@ if (score >= 90) {
 
 console.log("점수는", score, "점 입니다");
 console.log(`점수는 ${score} 점 입니다`); // 문자열로 치환됨
+
+// trim 공백제거
+if ("      ".trim()) {
+  console.log("True 입니다");
+} else {
+  console.log("False 입니다");
+}
